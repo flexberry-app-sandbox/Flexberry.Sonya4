@@ -106,6 +106,7 @@ CREATE TABLE ПриходДенег (
 CREATE TABLE СоставУслуги (
  primaryKey UUID NOT NULL,
  Количество INT NULL,
+ Услуги UUID NOT NULL,
  ПриходДенег UUID NOT NULL,
  PRIMARY KEY (primaryKey));
 
@@ -243,6 +244,9 @@ CREATE INDEX Indexb136905ed323e249f7a9ef9f2df72309b30f2811 on СоставТов
 
  ALTER TABLE ПриходДенег ADD CONSTRAINT FKb8314e4a55b89dd76f697fa54825b01e0ea5d491 FOREIGN KEY (Клиенты) REFERENCES Клиенты; 
 CREATE INDEX Indexb8314e4a55b89dd76f697fa54825b01e0ea5d491 on ПриходДенег (Клиенты); 
+
+ ALTER TABLE СоставУслуги ADD CONSTRAINT FK60bf52ff8798e62a2ec60e4379a0657f3d31ae8e FOREIGN KEY (Услуги) REFERENCES Услуги; 
+CREATE INDEX Index60bf52ff8798e62a2ec60e4379a0657f3d31ae8e on СоставУслуги (Услуги); 
 
  ALTER TABLE СоставУслуги ADD CONSTRAINT FKff913031ece8ef1818bfd21c83bf1d1ecbe8580b FOREIGN KEY (ПриходДенег) REFERENCES ПриходДенег; 
 CREATE INDEX Indexff913031ece8ef1818bfd21c83bf1d1ecbe8580b on СоставУслуги (ПриходДенег); 

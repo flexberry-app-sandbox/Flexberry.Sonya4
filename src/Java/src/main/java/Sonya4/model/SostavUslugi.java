@@ -26,6 +26,16 @@ public class SostavUslugi {
     private Integer количество;
 
     @EdmIgnore
+    @Converter(converterClass = UUIDConverter.class, name = "Uslugi")
+    @Convert("Uslugi")
+    @Column(name = "Услуги", length = 16, unique = true, nullable = false)
+    private UUID _uslugiid;
+
+    @ManyToOne(optional = false, fetch = FetchType.LAZY)
+    @JoinColumn(name = "Uslugi", insertable = false, updatable = false)
+    private Uslugi uslugi;
+
+    @EdmIgnore
     @Converter(converterClass = UUIDConverter.class, name = "PrixodDeneg")
     @Convert("PrixodDeneg")
     @Column(name = "ПриходДенег", length = 16, unique = true, nullable = false)

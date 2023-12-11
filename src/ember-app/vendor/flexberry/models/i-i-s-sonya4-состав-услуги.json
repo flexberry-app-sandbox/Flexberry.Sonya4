@@ -20,6 +20,13 @@
     {
       "polymorphic": false,
       "presence": true,
+      "name": "услуги",
+      "relatedTo": "i-i-s-sonya4-услуги",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
       "name": "приходДенег",
       "relatedTo": "i-i-s-sonya4-приход-денег",
       "inverse": "составУслуги"

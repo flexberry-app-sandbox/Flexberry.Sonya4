@@ -36,6 +36,8 @@ namespace IIS.Sonya4
         
         private int fКоличество;
         
+        private IIS.Sonya4.Услуги fУслуги;
+        
         private IIS.Sonya4.ПриходДенег fПриходДенег;
         
         // *** Start programmer edit section *** (СоставУслуги CustomMembers)
@@ -71,6 +73,40 @@ namespace IIS.Sonya4
                 // *** Start programmer edit section *** (СоставУслуги.Количество Set end)
 
                 // *** End programmer edit section *** (СоставУслуги.Количество Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Состав услуги.
+        /// </summary>
+        // *** Start programmer edit section *** (СоставУслуги.Услуги CustomAttributes)
+
+        // *** End programmer edit section *** (СоставУслуги.Услуги CustomAttributes)
+        [PropertyStorage(new string[] {
+                "Услуги"})]
+        [NotNull()]
+        public virtual IIS.Sonya4.Услуги Услуги
+        {
+            get
+            {
+                // *** Start programmer edit section *** (СоставУслуги.Услуги Get start)
+
+                // *** End programmer edit section *** (СоставУслуги.Услуги Get start)
+                IIS.Sonya4.Услуги result = this.fУслуги;
+                // *** Start programmer edit section *** (СоставУслуги.Услуги Get end)
+
+                // *** End programmer edit section *** (СоставУслуги.Услуги Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (СоставУслуги.Услуги Set start)
+
+                // *** End programmer edit section *** (СоставУслуги.Услуги Set start)
+                this.fУслуги = value;
+                // *** Start programmer edit section *** (СоставУслуги.Услуги Set end)
+
+                // *** End programmer edit section *** (СоставУслуги.Услуги Set end)
             }
         }
         

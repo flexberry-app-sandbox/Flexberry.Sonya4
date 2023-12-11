@@ -22,47 +22,49 @@ export default Controller.extend({
             link: 'i-i-s-sonya4-поставщики-l',
             caption: i18n.t('forms.application.sitemap.sonya4.i-i-s-sonya4-поставщики-l.caption'),
             title: i18n.t('forms.application.sitemap.sonya4.i-i-s-sonya4-поставщики-l.title'),
-            icon: 'briefcase',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-sonya4-материалы-l',
             caption: i18n.t('forms.application.sitemap.sonya4.i-i-s-sonya4-материалы-l.caption'),
             title: i18n.t('forms.application.sitemap.sonya4.i-i-s-sonya4-материалы-l.title'),
-            icon: 'building',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-sonya4-клиенты-l',
             caption: i18n.t('forms.application.sitemap.sonya4.i-i-s-sonya4-клиенты-l.caption'),
             title: i18n.t('forms.application.sitemap.sonya4.i-i-s-sonya4-клиенты-l.title'),
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-sonya4-товары-l',
             caption: i18n.t('forms.application.sitemap.sonya4.i-i-s-sonya4-товары-l.caption'),
             title: i18n.t('forms.application.sitemap.sonya4.i-i-s-sonya4-товары-l.title'),
-            icon: 'tags',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-sonya4-расход-денег-l',
             caption: i18n.t('forms.application.sitemap.sonya4.i-i-s-sonya4-расход-денег-l.caption'),
             title: i18n.t('forms.application.sitemap.sonya4.i-i-s-sonya4-расход-денег-l.title'),
-            icon: 'paperclip',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-sonya4-услуги-l',
             caption: i18n.t('forms.application.sitemap.sonya4.i-i-s-sonya4-услуги-l.caption'),
             title: i18n.t('forms.application.sitemap.sonya4.i-i-s-sonya4-услуги-l.title'),
-            icon: 'archive',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-sonya4-регистр-l',
             caption: i18n.t('forms.application.sitemap.sonya4.i-i-s-sonya4-регистр-l.caption'),
             title: i18n.t('forms.application.sitemap.sonya4.i-i-s-sonya4-регистр-l.title'),
-            icon: 'folder',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-sonya4-приход-денег-l',
             caption: i18n.t('forms.application.sitemap.sonya4.i-i-s-sonya4-приход-денег-l.caption'),
             title: i18n.t('forms.application.sitemap.sonya4.i-i-s-sonya4-приход-денег-l.title'),
+            icon: 'tasks',
             children: null
           }]
         }

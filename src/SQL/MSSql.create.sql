@@ -175,6 +175,8 @@ CREATE TABLE [СоставУслуги] (
 
 	 [Количество] INT  NULL,
 
+	 [Услуги] UNIQUEIDENTIFIER  NOT NULL,
+
 	 [ПриходДенег] UNIQUEIDENTIFIER  NOT NULL,
 
 	 PRIMARY KEY ([primaryKey]))

@@ -198,6 +198,8 @@ CREATE TABLE "СоставУслуги"
 
 	"Количество" NUMBER(10) NULL,
 
+	"Услуги" RAW(16) NOT NULL,
+
 	"ПриходДенег" RAW(16) NOT NULL,
 
 	 PRIMARY KEY ("primaryKey")
@@ -451,6 +453,11 @@ ALTER TABLE "ПриходДенег"
 	ADD CONSTRAINT "ПриходДенег_F_5719" FOREIGN KEY ("Клиенты") REFERENCES "Клиенты" ("primaryKey");
 
 CREATE INDEX "ПриходДенег_I_8061" on "ПриходДенег" ("Клиенты");
+
+ALTER TABLE "СоставУслуги"
+	ADD CONSTRAINT "СоставУслуги__5595" FOREIGN KEY ("Услуги") REFERENCES "Услуги" ("primaryKey");
+
+CREATE INDEX "СоставУслуги__3045" on "СоставУслуги" ("Услуги");
 
 ALTER TABLE "СоставУслуги"
 	ADD CONSTRAINT "СоставУслуги__3821" FOREIGN KEY ("ПриходДенег") REFERENCES "ПриходДенег" ("primaryKey");
