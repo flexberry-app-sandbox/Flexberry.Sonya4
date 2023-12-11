@@ -1,0 +1,71 @@
+﻿{
+  "applicationCaption": "Sonya4",
+  "applicationTitle": "Sonya4",
+  "items": [
+    {
+      "link": null,
+      "menuName": "sonya4",
+      "caption": "Sonya4",
+      "title": "Sonya4",
+      "children": [
+        {
+          "link": "i-i-s-sonya4-поставщики-l",
+          "menuName": null,
+          "caption": "Поставщики",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sonya4-материалы-l",
+          "menuName": null,
+          "caption": "Материалы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sonya4-клиенты-l",
+          "menuName": null,
+          "caption": "Клиенты",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sonya4-товары-l",
+          "menuName": null,
+          "caption": "Товары",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sonya4-расход-денег-l",
+          "menuName": null,
+          "caption": "Расход денег",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sonya4-услуги-l",
+          "menuName": null,
+          "caption": "Услуги",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sonya4-регистр-l",
+          "menuName": null,
+          "caption": "Регистр",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-sonya4-приход-денег-l",
+          "menuName": null,
+          "caption": "Приход денег",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

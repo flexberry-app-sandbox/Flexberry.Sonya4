@@ -1,0 +1,48 @@
+﻿{
+  "name": "IISSonya4СоставУслуги",
+  "modelName": "i-i-s-sonya4-состав-услуги",
+  "className": "СоставУслуги",
+  "nameSpace": "IIS.Sonya4",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "приходДенег",
+      "relatedTo": "i-i-s-sonya4-приход-денег",
+      "inverse": "составУслуги"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СоставУслугиE",
+      "modelName": "i-i-s-sonya4-состав-услуги",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

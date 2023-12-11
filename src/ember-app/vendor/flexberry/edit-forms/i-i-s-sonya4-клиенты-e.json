@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Клиенты",
+  "name": "IISSonya4КлиентыE",
+  "className": "КлиентыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sonya4-клиенты",
+      "modelProjection": "КлиентыE"
+    }
+  ]
+}

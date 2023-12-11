@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-sonya4-клиенты-e",
+  "editForm": "i-i-s-sonya4-клиенты-e",
+  "external": false,
+  "caption": "Клиенты",
+  "name": "IISSonya4КлиентыL",
+  "className": "КлиентыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sonya4-клиенты",
+      "modelProjection": "КлиентыL"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-sonya4-услуги-e",
+  "editForm": "i-i-s-sonya4-услуги-e",
+  "external": false,
+  "caption": "Услуги",
+  "name": "IISSonya4УслугиL",
+  "className": "УслугиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-sonya4-услуги",
+      "modelProjection": "УслугиL"
+    }
+  ]
+}
